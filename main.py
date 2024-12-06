@@ -189,7 +189,7 @@ def sumbitToDB():
     cur = conn.cursor()
 
     #change this to true if you want to create the database
-    insertAllValues = False
+    insertAllValues = True
     if(insertAllValues):
         #this code wipes the database, wipe only if needed
         #cur.execute("""DROP TABLE IF EXISTS attraction_list; DROP TABLE IF EXISTS attractions;DROP TABLE IF EXISTS users;""")
